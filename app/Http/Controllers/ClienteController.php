@@ -37,7 +37,7 @@ class ClienteController extends Controller
 
             $rule=array(
                 'concesionarioId' => 'required|integer|exists:concesionarios,id',
-                'email' => 'required|email|unique:clientes,email,'.$inputs['mail'],
+                'email' => 'required|email|unique:clientes,email,'.$inputs['email'],
                 'nombre' => 'required|string',
                 'apellido' => 'required|string', 
                 'tipo_cedula' => 'required|integer|min:1|max:2', 
