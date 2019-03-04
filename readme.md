@@ -10,7 +10,7 @@
 ## Preuba Crud
 
 
-Metodo 1
+Metodo 1<br>
 1-Bajar o  Clonar repositorio<br>
 2-Crear base de datos en MySql<br>
 3-Modificar nombre del archivo env.example a env.  que esta localizado en la Raiz del proyecto clonado<br>
@@ -21,7 +21,7 @@ Metodo 1
 8-lista la configuracion<br>
 
 
-Metodo 2
+Metodo 2<br>
 1-Bajar o  Clonar repositorio<br>
 2-Crear base de datos en MySql<br>
 3-Modificar nombre del archivo env.example a env.  que esta localizado en la Raiz del proyecto clonado<br>
