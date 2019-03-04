@@ -18,7 +18,8 @@ Metodo 1<br>
 5-En la consola correr "composer install"<br>
 6-En la consola correr "composer update"<br>
 7-En la Consola correr "php artisan migrate:refresh --seed"<br>
-8-lista la configuracion<br>
+8-En la Consola correr "php artisan serve"<br>
+9-lista la configuracion<br>
 
 
 Metodo 2<br>
@@ -28,6 +29,6 @@ Metodo 2<br>
 4-En el Archivo  env.  que esta localizado en la Raiz del proyecto clonado configurar las credenciaes de la BD creada en el paso 2<br>
 5-En la consola correr composer install<br>
 6-En la consola correr composer update<br>
-7-Correr el script .SQL encontrado en /aaSQL<br>
-8-lista la configuracion<br>
+8-En la Consola correr "php artisan serve"<br>
+9-lista la configuracion<br>
 
