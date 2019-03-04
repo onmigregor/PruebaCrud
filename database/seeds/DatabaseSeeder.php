@@ -13,7 +13,7 @@ class DatabaseSeeder extends Seeder
     {
         $this->call(CiudadTableSeeder::class);
         $this->call(ConsecionarioTableSeeder::class);
-        $this->call(ClienteTableSeeder::class);
+        //$this->call(ClienteTableSeeder::class);
         $this->call(StatusCodeSeeder::class);
     }
 }

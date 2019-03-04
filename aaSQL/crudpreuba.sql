@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 04-03-2019 a las 01:26:24
+-- Tiempo de generación: 04-03-2019 a las 16:47:12
 -- Versión del servidor: 10.1.36-MariaDB
 -- Versión de PHP: 7.2.11
 
@@ -41,11 +41,11 @@ CREATE TABLE `ciudades` (
 --
 
 INSERT INTO `ciudades` (`id`, `ciudad`, `created_at`, `updated_at`, `deleted_at`) VALUES
-(1, 'Caracas', '2019-03-04 00:25:25', '2019-03-04 00:25:25', NULL),
-(2, 'Maracaibo', '2019-03-04 00:25:25', '2019-03-04 00:25:25', NULL),
-(3, 'Valencia', '2019-03-04 00:25:25', '2019-03-04 00:25:25', NULL),
-(4, 'Barquisimeto', '2019-03-04 00:25:25', '2019-03-04 00:25:25', NULL),
-(5, 'San Cristobal', '2019-03-04 00:25:25', '2019-03-04 00:25:25', NULL);
+(1, 'Caracas', '2019-03-04 15:47:07', '2019-03-04 15:47:07', NULL),
+(2, 'Maracaibo', '2019-03-04 15:47:07', '2019-03-04 15:47:07', NULL),
+(3, 'Valencia', '2019-03-04 15:47:07', '2019-03-04 15:47:07', NULL),
+(4, 'Barquisimeto', '2019-03-04 15:47:07', '2019-03-04 15:47:07', NULL),
+(5, 'San Cristobal', '2019-03-04 15:47:07', '2019-03-04 15:47:07', NULL);
 
 -- --------------------------------------------------------
 
@@ -87,12 +87,12 @@ CREATE TABLE `concesionarios` (
 --
 
 INSERT INTO `concesionarios` (`id`, `ciudadId`, `nombre`, `status`, `created_at`, `updated_at`, `deleted_at`) VALUES
-(1, 1, 'Av. Panteón', 1, '2019-03-04 00:25:25', '2019-03-04 00:25:25', NULL),
-(2, 1, 'La Floridad', 1, '2019-03-04 00:25:25', '2019-03-04 00:25:25', NULL),
-(3, 2, 'Las Delicias', 1, '2019-03-04 00:25:25', '2019-03-04 00:25:25', NULL),
-(4, 4, 'San Roman', 1, '2019-03-04 00:25:25', '2019-03-04 00:25:25', NULL),
-(5, 5, 'Plaza Toros', 1, '2019-03-04 00:25:25', '2019-03-04 00:25:25', NULL),
-(6, 3, 'Av. Las Industrias', 1, '2019-03-04 00:25:25', '2019-03-04 00:25:25', NULL);
+(1, 1, 'Av. Panteón', 1, '2019-03-04 15:47:07', '2019-03-04 15:47:07', NULL),
+(2, 1, 'La Floridad', 1, '2019-03-04 15:47:07', '2019-03-04 15:47:07', NULL),
+(3, 2, 'Las Delicias', 1, '2019-03-04 15:47:07', '2019-03-04 15:47:07', NULL),
+(4, 4, 'San Roman', 1, '2019-03-04 15:47:07', '2019-03-04 15:47:07', NULL),
+(5, 5, 'Plaza Toros', 1, '2019-03-04 15:47:07', '2019-03-04 15:47:07', NULL),
+(6, 3, 'Av. Las Industrias', 1, '2019-03-04 15:47:07', '2019-03-04 15:47:07', NULL);
 
 -- --------------------------------------------------------
 
@@ -111,10 +111,10 @@ CREATE TABLE `migrations` (
 --
 
 INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
-(29, '2019_03_01_124949_create_ciudades_table', 1),
-(30, '2019_03_01_132325_create_consesionarios_table', 1),
-(31, '2019_03_01_133755_create_clientes_table', 1),
-(32, '2019_03_02_111121_create_status_code_table', 1);
+(1, '2019_03_01_124949_create_ciudades_table', 1),
+(2, '2019_03_01_132325_create_consesionarios_table', 1),
+(3, '2019_03_01_133755_create_clientes_table', 1),
+(4, '2019_03_02_111121_create_status_code_table', 1);
 
 -- --------------------------------------------------------
 
@@ -136,12 +136,12 @@ CREATE TABLE `status_code` (
 --
 
 INSERT INTO `status_code` (`id`, `codigo`, `tipo`, `mensaje`, `created_at`, `updated_at`) VALUES
-(1, '200', 1, 'Conexion establecida', '2019-03-04 00:25:25', '2019-03-04 00:25:25'),
-(2, '201', 1, 'ha sido creado de manera exitosa', '2019-03-04 00:25:25', '2019-03-04 00:25:25'),
-(3, '202', 1, 'ha sido modificado con exito', '2019-03-04 00:25:25', '2019-03-04 00:25:25'),
-(4, '203', 1, 'ha sido borrado', '2019-03-04 00:25:25', '2019-03-04 00:25:25'),
-(5, '204', 0, 'los siguientes validaciones han fallado', '2019-03-04 00:25:25', '2019-03-04 00:25:25'),
-(6, '205', 0, 'No se ha encontrado', '2019-03-04 00:25:25', '2019-03-04 00:25:25');
+(1, '200', 1, 'Conexion establecida', '2019-03-04 15:47:07', '2019-03-04 15:47:07'),
+(2, '201', 1, 'ha sido creado de manera exitosa', '2019-03-04 15:47:07', '2019-03-04 15:47:07'),
+(3, '202', 1, 'ha sido modificado con exito', '2019-03-04 15:47:07', '2019-03-04 15:47:07'),
+(4, '203', 1, 'ha sido borrado', '2019-03-04 15:47:07', '2019-03-04 15:47:07'),
+(5, '204', 0, 'los siguientes validaciones han fallado', '2019-03-04 15:47:07', '2019-03-04 15:47:07'),
+(6, '205', 0, 'No se ha encontrado', '2019-03-04 15:47:07', '2019-03-04 15:47:07');
 
 --
 -- Índices para tablas volcadas
@@ -168,7 +168,7 @@ ALTER TABLE `clientes`
 --
 ALTER TABLE `concesionarios`
   ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `concesionarios_nombre_unique` (`nombre`),
+  ADD UNIQUE KEY `concesionarios_nombre_ciudadid_unique` (`nombre`,`ciudadId`),
   ADD KEY `concesionarios_ciudadid_foreign` (`ciudadId`);
 
 --
@@ -210,7 +210,7 @@ ALTER TABLE `concesionarios`
 -- AUTO_INCREMENT de la tabla `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT de la tabla `status_code`

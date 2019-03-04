@@ -8,9 +8,10 @@
         </div>
       </div>
       <ul class="app-menu">
-        <li><a class="app-menu__item active" href="{{url('vista-cliente')}}"><i class="app-menu__icon fa fa-user"></i><span class="app-menu__label">Clientes</span></a></li>
-        
+        <li><a class="app-menu__item active" href="{{url('/')}}"><i class="app-menu__icon fa fa-info-circle"></i><span class="app-menu__label">Inicio</span></a></li>
         <li><a class="app-menu__item active" href="{{url('vista-concesionario')}}"><i class="app-menu__icon fa fa-car"></i><span class="app-menu__label">Concesionario</span></a></li>
+
+        <li><a class="app-menu__item active" href="{{url('vista-cliente')}}"><i class="app-menu__icon fa fa-user"></i><span class="app-menu__label">Clientes</span></a></li>
         
         <li><a class="app-menu__item active" href="{{url('reportesConcesionario')}}"><i class="app-menu__icon fa fa-list"></i><span class="app-menu__label">Reportes Concecionario</span></a></li>
 
